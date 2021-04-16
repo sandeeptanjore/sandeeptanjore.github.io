@@ -1,0 +1,63 @@
+html{
+    
+    font-family: 'Roboto Slab', serif;
+    color: lightcoral;
+}
+
+body{
+    /*box-shadow: 170px 170px 170px 170px tan; */
+    box-shadow: 10px 10px 30px 30px tan; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    
+  }
+
+.name{
+    /*text-align: left;*/
+    float: left;
+    margin-top: 10px;
+}
+
+.back{
+    text-align: right;
+     margin-top: 10px;
+}
+
+.ps{
+    float: left;
+    margin: 75px;
+    padding: 25px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    text-align:center;
+    box-shadow: 10px 10px 30px 30px tan; 
+}
+
+.ss{
+    float: left;
+    margin: 75px;
+    padding: 25px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    text-align:center;
+    box-shadow: 10px 10px 30px 30px tan; 
+}
+
+.is{
+    float: left;
+    margin: 75px;
+    padding: 25px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    text-align:center;
+    box-shadow: 10px 10px 30px 30px tan; 
+}
+

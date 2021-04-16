@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="contact">Contact Me</h1>
+   
+    <div class="container">
+    <form action="http://www.example.com/review.php" method="post">
+        <!--
+    <fieldset>
+        <legend>
+            Your details:
+        </legend>
+        <label>
+            Name
+            <br />
+            
+                <input type="text" name="name" size="50" maxlength="100" required="required" />                
+        </label>
+        <br />
+        <br />
+        
+        <label>
+            Email Id
+            <br />
+                <input type="email" name="email" size="50" maxlength="100" required="required" />             
+        </label>
+        <br />
+        <br />
+
+        <label>
+            Message:
+            <br />
+            <textarea name="comments" id="" cols="30" rows="10"></textarea>
+        </label>
+        <br />
+        <br />
+
+        <input type="submit" value="Submit">
+
+
+    </fieldset>
+    </form>
+-->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name.."><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email id.."><br><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="unitedkingdom">United Kingdom</option>
+      <option value="australia">Australia</option>
+      <option value="newzealand">New Zealand</option>
+      <option value="india">India</option>
+      <option value="others">Others</option>
+    </select><br><br>
+
+    <label for="comments">Comments</label>
+    <textarea id="comments" name="comments" placeholder="Write something.." style="height:200px"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <input type="button" value="Back" onclick="history.back()"/> 
+
+    
+    <!--
+        <h4 class="back"><a href="aboutme.html">Back</a></h4>
+    <button type="reset" value="Reset">Reset</button>
+    -->
+  </form>
+</div>
+</body>
+</html>
