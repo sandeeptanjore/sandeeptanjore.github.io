@@ -1,1 +1,1 @@
-#https://sandeeptanjore.github.io/
+#This was my first attempt to create a webpage for myself to build a portfolio besides showcasing my skills. I used it for a year before deciding to take it down as it was not asthetic to the eye. Stay tuned as I am creating a new one using CSS framework - Bootstrap and plan to have it ready by the end of this year. 
